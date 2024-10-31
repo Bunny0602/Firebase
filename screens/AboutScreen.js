@@ -18,7 +18,7 @@ function AboutScreen() {
       showsVerticalScrollIndicator={false}>
         <View style={styles.paragraphContainer}>
           <Image
-            source={require("../assets/images/img1.jpg")}
+            source={require("../assets/images/pic1.jpg")}
             style={styles.image}
           />
           <Text style={styles.paragraph}>
@@ -32,7 +32,7 @@ function AboutScreen() {
         </View>
         <View style={styles.paragraphContainer}>
           <Image
-            source={require("../assets/images/img1.jpg")}
+            source={require("../assets/images/pic2.jpg")}
             style={styles.image}
           />
           <Text style={styles.paragraph}>
@@ -45,7 +45,7 @@ function AboutScreen() {
         </View>
         <View style={styles.paragraphContainer}>
           <Image
-            source={require("../assets/images/img1.jpg")}
+            source={require("../assets/images/pic3.jpg")}
             style={styles.image}
           />
           <Text style={styles.paragraph}>
@@ -78,7 +78,7 @@ function AboutScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#786c3b",
+    backgroundColor: "#4A6E4D",
   },
   itemContainer: {
     flex: 1,
@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
   },
   paragraphContainer: {
     padding: 20,
-    backgroundColor: "#996600",
+    backgroundColor: "#8B5A2B",
     marginBottom: 20,
   },
   paragraph: {

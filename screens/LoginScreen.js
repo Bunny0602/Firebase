@@ -45,7 +45,7 @@ const LoginScreen = ({ navigation }) => {
   return (
     <ImageBackground
       style={styles.container}
-      source={require("../assets/images/bg.jpg")}
+      source={require("../assets/images/bg2.jpg")}
     >
       <View style={styles.inputContainer}>
         <TextInput
@@ -84,6 +84,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
+    objectFit: "cover",
   },
   input: {
     width: 300,
